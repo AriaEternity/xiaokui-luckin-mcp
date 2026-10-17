@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-17",
+  "environment": {
+    "os": "Ubuntu 24.04",
+    "architecture": "x86_64",
+    "node": "v24.20.0",
+    "npm": "11.19.0"
+  },
+  "cleanInstall": true,
+  "installScriptsExecuted": false,
+  "typecheck": true,
+  "build": true,
+  "tests": {
+    "total": 55,
+    "passed": 55,
+    "failed": 0,
+    "cancelled": 0,
+    "skipped": 0
+  },
+  "codeAndTestInputSha256": "714cfc1e4c3baa37414c35dba254d4f1d2126579180d4d4b5878f75c50e08eef",
+  "lockSha256": "5bb782c32c8b33b084532596e3512040732ae3009c84dfc8a7eb4ba2404e0104",
+  "runtimeKnownVulnerabilities": 0,
+  "publicScan": {
+    "passed": true,
+    "reviewedTextFiles": 59,
+    "privateRuntimeRead": false,
+    "privateHistoryIncluded": false
+  },
+  "syntheticOnly": true,
+  "realAccountCalls": 0,
+  "realOrderCreateCalls": 0,
+  "productionChanges": false,
+  "independentPublicVersionRealChatgptConnectionTested": false,
+  "independentPublicVersionSystemManagerCredentialsTested": false,
+  "sourceProjectFirstRealOrder": "user-reported-complete-with-payment-and-pickup",
+  "githubActionsRun": "not-yet-run"
+}

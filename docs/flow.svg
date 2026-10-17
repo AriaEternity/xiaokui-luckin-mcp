@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="650" viewBox="0 0 1080 650" role="img" aria-labelledby="title desc">
+<title id="title">小葵与瑞幸：逐笔确认点单流程</title><desc id="desc">独立绘制的流程示意，并非ChatGPT界面截图。对话选品、官方报价、本人批准、提交一次、本人付款、官方状态和取餐。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#b97d9b"/></marker></defs>
+<rect width="1080" height="650" fill="#17101d"/><g font-family="system-ui,sans-serif" fill="#ffedf5">
+<text x="48" y="60" font-size="30" font-weight="700">从对话，到一杯咖啡</text><text x="48" y="96" font-size="17" fill="#d6b8cc">AI准备订单 · 本人逐笔批准 · 本人付款</text>
+<g fill="#2c2034" stroke="#9d6d89" stroke-width="2"><rect x="48" y="140" width="280" height="140" rx="15"/><rect x="400" y="140" width="280" height="140" rx="15"/><rect x="752" y="140" width="280" height="140" rx="15"/><rect x="752" y="370" width="280" height="140" rx="15"/><rect x="400" y="370" width="280" height="140" rx="15"/><rect x="48" y="370" width="280" height="140" rx="15"/></g>
+<g font-size="23" font-weight="600"><text x="72" y="185">① 对话选店与选品</text><text x="424" y="185">② 官方真实预览</text><text x="776" y="185">③ 本人网页批准</text><text x="776" y="415">④ 最多提交一次</text><text x="424" y="415">⑤ 本人扫码付款</text><text x="72" y="415">⑥ 查状态，再取餐</text></g>
+<g font-size="16" fill="#d6b8cc"><text x="72" y="225">读取合法属性ID与SKU</text><text x="72" y="252">AI不能猜规格或位置</text><text x="424" y="225">门店、规格、数量与金额</text><text x="424" y="252">自动优惠由官方匹配</text><text x="776" y="225">登录 + Origin + CSRF + nonce</text><text x="776" y="252">OAuth同意不等于本笔批准</text><text x="776" y="455">重核报价，持久提交标记</text><text x="776" y="482">UNKNOWN不自动重试</text><text x="424" y="455">官方二维码，用户自行决定</text><text x="424" y="482">没有自动付款工具</text><text x="72" y="455">官方状态确认后才给取餐信息</text><text x="72" y="482">“下单成功”不等于“已付款”</text></g>
+<g stroke="#b97d9b" stroke-width="3" marker-end="url(#arrow)" fill="none"><path d="M337 210H387"/><path d="M689 210H739"/><path d="M892 291V356"/><path d="M739 440H692"/><path d="M387 440H340"/></g>
+<text x="48" y="575" font-size="18" fill="#e7abc9">默认仅查询 · 真实创建默认关闭 · Token只在自托管服务器</text><text x="48" y="611" font-size="14" fill="#b6a0b2">非瑞幸官方项目；图为流程示意，未展示任何真实账户、订单或支付数据。</text>
+</g></svg>

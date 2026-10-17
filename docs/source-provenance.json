@@ -1,0 +1,126 @@
+{
+  "project": "KuiNest v4 bridge extraction",
+  "privateHistoryIncluded": false,
+  "officialSkillRedistributed": false,
+  "files": [
+    {
+      "source": "apps/backend/src/mcp/authorization.ts",
+      "export": "src/mcp/authorization.ts",
+      "sourceSha256": "8aff3396ff9f7d64cc54a2481a6dfd161ffb743d2270b906f8bd316e741ca040",
+      "exportSha256": "8aff3396ff9f7d64cc54a2481a6dfd161ffb743d2270b906f8bd316e741ca040",
+      "modifiedForStandalone": false
+    },
+    {
+      "source": "apps/backend/src/mcp/luckin.ts",
+      "export": "src/mcp/luckin.ts",
+      "sourceSha256": "2506b92231e58aedc0c4c4b57ee53fbf8ad58eb60f2a648f5ac5d88aa3133ef4",
+      "exportSha256": "7cb967ea54467aeacc1713a38fb0bc24dfad5121a205009b2bb531cff1f87191",
+      "modifiedForStandalone": true
+    },
+    {
+      "source": "apps/backend/src/mcp/luckin-preview.ts",
+      "export": "src/mcp/luckin-preview.ts",
+      "sourceSha256": "7226b1317cc84e1717673c099a6f9ce7f0c482321b6c3deeab7c7f80e414934e",
+      "exportSha256": "fb918da4072c75b2eaa7b594824bc29c36cc1474c8f943fe3d27c864ef42e495",
+      "modifiedForStandalone": true
+    },
+    {
+      "source": "apps/backend/src/mcp/luckin-orders.ts",
+      "export": "src/mcp/luckin-orders.ts",
+      "sourceSha256": "069cfe8373537c9c4dca79e37d6b3de2231fbae1211048086de2df6cbd551fa1",
+      "exportSha256": "cfa924390ee86f73063759839848ca6fccc2f96f2342c6764f8f6a04ef07953e",
+      "modifiedForStandalone": true
+    },
+    {
+      "source": "apps/backend/src/mcp/luckin-policy.ts",
+      "export": "src/mcp/luckin-policy.ts",
+      "sourceSha256": "7ca70b6664e7b3b0828b0f3e8fc97ef36f53654b8af6a92851098a480b72730b",
+      "exportSha256": "88014de3fa0bf62b0828848fd1687e23802a88b7ec14750a054aaaa627a12fe6",
+      "modifiedForStandalone": true
+    },
+    {
+      "source": "apps/backend/src/mcp/luckin-preview-policy.ts",
+      "export": "src/mcp/luckin-preview-policy.ts",
+      "sourceSha256": "4d950fcba110cb01dac92c53e51a78cd1ce7d556ca4096aa2e278b002ff0a948",
+      "exportSha256": "9b00cc80939529463014bd2f8d2ddc5c569109da722527c0615fd8832f00c802",
+      "modifiedForStandalone": true
+    },
+    {
+      "source": "apps/backend/src/mcp/luckin-orders-policy.ts",
+      "export": "src/mcp/luckin-orders-policy.ts",
+      "sourceSha256": "7f24329d141c5dc40c3b4a1b7d8bb32f37bf905f7d491448bd0660390790bdad",
+      "exportSha256": "7f24329d141c5dc40c3b4a1b7d8bb32f37bf905f7d491448bd0660390790bdad",
+      "modifiedForStandalone": false
+    },
+    {
+      "source": "apps/backend/src/mcp/luckin-preview-price.ts",
+      "export": "src/mcp/luckin-preview-price.ts",
+      "sourceSha256": "9cd2ac6f8c255ca81a9dc4821bb598ea0827972f4b6106fda25e003bf13b7633",
+      "exportSha256": "5e826b2dc5058cd84a5de4cfcd9adc5251904f0dd6120eb1bd77e47eb8c42ec7",
+      "modifiedForStandalone": true
+    },
+    {
+      "source": "apps/backend/src/mcp/luckin-client.ts",
+      "export": "src/mcp/luckin-client.ts",
+      "sourceSha256": "391358604e60ee17a4c248bb6304794562a48e7f534696eff48bbaf9c7a22547",
+      "exportSha256": "ec5b05c68f4bbe91d76ffa5fa37ce71755ef40adfab6f9d0bb98347464cc0753",
+      "modifiedForStandalone": true
+    },
+    {
+      "source": "packages/contracts/src/luckin-mcp.ts",
+      "export": "src/contracts/luckin-mcp.ts",
+      "sourceSha256": "9b7d44723cb345633179cf14bd8398b5b4a61783bfe7a30e70daafc72f09fa3a",
+      "exportSha256": "ee84e734fb46c1f7835d7f6fe8cfc422a4e23f31d521ac2ada591b9cf27c7ef5",
+      "modifiedForStandalone": true
+    },
+    {
+      "source": "packages/contracts/src/luckin-preview-mcp.ts",
+      "export": "src/contracts/luckin-preview-mcp.ts",
+      "sourceSha256": "b7ff998fc2b41b6585f12f86d4cb4bd3c2764fc4e994782c3e52946faba2d7f1",
+      "exportSha256": "b6272ff1d3e1ad4eb77a5ff9791d4e2046ae1c56f5f53f97f286c061980bc12c",
+      "modifiedForStandalone": true
+    },
+    {
+      "source": "packages/contracts/src/luckin-orders-mcp.ts",
+      "export": "src/contracts/luckin-orders-mcp.ts",
+      "sourceSha256": "e8b0be7d7c9ef54249400d63c8ba62bee1f94577798b2610079ab3869b2250be",
+      "exportSha256": "8cea7d94e471deeef83d7bb3d3488a8a209239178e413964c1298b131d0eb2dd",
+      "modifiedForStandalone": true
+    },
+    {
+      "source": "apps/backend/src/luckin/orders.ts",
+      "export": "src/luckin/orders.ts",
+      "sourceSha256": "f18afa92ac15f372c87778ca61902dc70af122d25885cbe1be8bc7196518b1d0",
+      "exportSha256": "f18afa92ac15f372c87778ca61902dc70af122d25885cbe1be8bc7196518b1d0",
+      "modifiedForStandalone": false
+    },
+    {
+      "source": "apps/backend/src/luckin/intent-store.ts",
+      "export": "src/luckin/intent-store.ts",
+      "sourceSha256": "826bf29875a35efa35b26aa96adeb30606b7e93f7386c59593c45354b742c16c",
+      "exportSha256": "826bf29875a35efa35b26aa96adeb30606b7e93f7386c59593c45354b742c16c",
+      "modifiedForStandalone": false
+    },
+    {
+      "source": "apps/backend/src/http/routes/luckin-mcp.ts",
+      "export": "src/http/routes/luckin-mcp.ts",
+      "sourceSha256": "fc28f7a47683726461a25a354c35e662b0417dc7bd4200b1828978aa28ebb589",
+      "exportSha256": "13664b47104b9c6ac6985856c66ac1f7974a928c2aa856e29a7ab087a97fff9c",
+      "modifiedForStandalone": true
+    },
+    {
+      "source": "apps/backend/src/http/routes/luckin-order-confirm.ts",
+      "export": "src/http/routes/luckin-order-confirm.ts",
+      "sourceSha256": "68db1bbbf89e0b1f7fd085ba285a0bd804fe7ea7d1f6f89ce7176656b0310179",
+      "exportSha256": "79e7884325999c8162154e0b7f1703a80d6fa0f2981fd678cb337375b25021cf",
+      "modifiedForStandalone": true
+    },
+    {
+      "source": "apps/backend/src/oauth/store.ts",
+      "export": "src/oauth/store.ts",
+      "sourceSha256": "243a0df439f5dfeb05e4dc91929a78d6d3d871622c4a9676cf3a225074534bce",
+      "exportSha256": "8556f3eecbbd673a24a119ad5e85afa86f6c597fae42d0ed5dca4948796e993b",
+      "modifiedForStandalone": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+node_modules/
+dist/
+data/
+secrets/
+.env
+.env.*
+!.env.example
+*.sqlite*
+*.db
+*.pem
+*.key
+*.log
+*.tgz
+*.tar.gz
+coverage/
+.DS_Store

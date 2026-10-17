@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "luckin-orders": {
+      "type": "streamable-http",
+      "url": "https://coffee.example.com/api/luckin/orders/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {"mode": "provided", "clientId": "xiaokui-chatgpt-luckin-orders", "tokenEndpointAuthMethod": "none"},
+            "authorizationUrl": "https://coffee.example.com/oauth/authorize",
+            "tokenUrl": "https://coffee.example.com/oauth/token",
+            "resource": "https://coffee.example.com/api/luckin/orders/mcp",
+            "baseScopes": ["luckin:orders:create"]
+          }
+        }
+      }
+    }
+  }
+}

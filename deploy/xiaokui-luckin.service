@@ -1,0 +1,40 @@
+[Unit]
+Description=Xiaokui Luckin MCP bridge (single owner)
+After=network.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=exec
+User=xiaokui-luckin
+Group=xiaokui-luckin
+WorkingDirectory=/opt/xiaokui-luckin/current
+EnvironmentFile=/etc/xiaokui-luckin/bridge.env
+LoadCredential=luckin-token:/etc/xiaokui-luckin/luckin-token
+LoadCredential=owner.json:/etc/xiaokui-luckin/owner.json
+Environment=OWNER_FILE=%d/owner.json
+Environment=LUCKIN_TOKEN_FILE=%d/luckin-token
+ExecStart=/opt/node-v24.20.0-linux-x64/bin/node --max-old-space-size=128 /opt/xiaokui-luckin/current/dist/main.js
+Restart=on-failure
+RestartSec=10s
+TimeoutStopSec=40s
+UMask=0077
+LimitCORE=0
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+CapabilityBoundingSet=
+ReadWritePaths=/var/lib/xiaokui-luckin
+MemoryHigh=192M
+MemoryMax=256M
+TasksMax=64
+
+[Install]
+WantedBy=multi-user.target
