@@ -1,5 +1,19 @@
 # 小葵 × 瑞幸 MCP
 
+> **零基础用户从这里开始：[完整中文新手部署教程](docs/beginners-guide.md)**。没有 KuiNest 也可以独立部署；从账号资格、服务器与域名开始，一步一步到真实查询和报价。卡住时看[常见问题](docs/faq.md)。
+
+## 复制给 ChatGPT 的部署提示词
+
+```text
+我想部署 https://github.com/AriaEternity/xiaokui-luckin-mcp ，没有后端经验。
+请先实际阅读本仓库最新 README、docs/beginners-guide.md、docs/deployment.md、docs/chatgpt.md、docs/faq.md、SECURITY.md，以及 package.json、src/config.ts 和部署模板。不能读取时明确告诉我，不要猜配置。
+先询问我：电脑还是手机、ChatGPT是否能添加自定义MCP、有无本人合法瑞幸MCP Token资格、有无服务器/域名、服务器系统架构，以及费用预算。先确认资格再建议付费。
+推荐仓库已有支持的Ubuntu24.04 x64 + Node24.20.0 + systemd/nginx方案；不要发明一键部署。一次只指导一个步骤，说明在哪里操作、输入什么、成功看到什么；等我回复结果再继续。错误先分层排查，不要关闭安全机制。
+密码、Token、Cookie、验证码、私钥、owner.json和数据库只由我在自己的环境处理，不能要求粘贴给你。系统账号、本站owner账号、官方账户和ChatGPT账号要区分。两套MCP同机时核对端口和独立目录。
+目标先完成离线验证、HTTPS、主人初始化、OAuth只读连接、真实商品查询，再开preview读取实际报价。保持ENABLE_ORDERS和ENABLE_ORDER_CREATE关闭，不自动调用真实创建、取消或支付；逐笔批准、UNKNOWN防重和本人付款不能跳过。明确区分原实践首单、公开版合成验证与我这次的真实验收。
+现在只问准备条件，并给我第一个需要完成的小步骤。
+```
+
 **让你平时聊天的 AI，陪你把一杯咖啡从对话带到现实。**
 
 把瑞幸官方 MCP 接入 ChatGPT：选店、选品、选规格、看真实报价，由本人逐笔批准后创建订单，返回官方二维码，用户自行付款，再查询订单和取餐信息。
