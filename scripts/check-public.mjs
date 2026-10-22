@@ -5,7 +5,7 @@ import {spawnSync} from 'node:child_process';
 const root=resolve(fileURLToPath(new URL('../',import.meta.url)));
 const excluded=new Set(['.git','node_modules','dist','data','secrets','coverage']);
 const roots=new Set(['src','test','docs','examples','deploy','scripts','.github']);
-const top=new Set(['README.md','LICENSE','SECURITY.md','THIRD_PARTY_NOTICES.md','CONTRIBUTING.md','package.json','package-lock.json','tsconfig.json','.npmrc','.gitignore','.gitattributes','.env.example','AGENTS.md']);
+const top=new Set(['README.md','README.en.md','LICENSE','SECURITY.md','THIRD_PARTY_NOTICES.md','CONTRIBUTING.md','package.json','package-lock.json','tsconfig.json','.npmrc','.gitignore','.gitattributes','.env.example','AGENTS.md']);
 const files=[],errors=[];
 function reject(path,reason){errors.push({path,reason});}
 function walk(directory){

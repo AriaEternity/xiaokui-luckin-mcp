@@ -1,5 +1,7 @@
 # 小葵 × 瑞幸 MCP
 
+**简体中文** | [English](README.en.md)
+
 > **零基础用户从这里开始：[完整中文新手部署教程](docs/beginners-guide.md)**。没有 KuiNest 也可以独立部署；从账号资格、服务器与域名开始，一步一步到真实查询和报价。卡住时看[常见问题](docs/faq.md)。
 
 ## 复制给 ChatGPT 的部署提示词
